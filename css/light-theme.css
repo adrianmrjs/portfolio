@@ -1,0 +1,496 @@
+/* --------------------------------------
+   Global Styles
+-----------------------------------------*/
+
+body {
+    background-color: #fdd05a;
+}
+
+.main-title h2 {
+    color: #1f2233;
+}
+
+.number {
+    color: #e0dede;
+}
+
+/* --------------------------------------
+   Loading
+-----------------------------------------*/
+
+.preloader {
+    background: #fff;
+}
+
+/* --------------------------------------
+   Color Switcher
+-----------------------------------------*/
+
+.switch-button {
+    background: #fff;
+    color: #1f2233;
+	border: 1px solid #f3f2f2;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.switched-styles {
+    background: #fff;
+    color: #1f2233;
+	border: 1px solid #f3f2f2;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.switched-styles h4 {
+    color: #1f2233;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.switched-styles .hide-button {
+    color: #1f2233;
+}
+
+/* --------------------------------------
+   Navbar
+-----------------------------------------*/
+
+.navbar {
+	background: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+}
+
+.navbar.active-nav {
+    background: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+}
+
+.navbar .navbar-brand span {
+	color: #1f2233;
+}
+
+.demo2 .navbar .navbar-brand span,
+.demo3 .navbar .navbar-brand span {
+	color: #fbf4e0;
+}
+
+.demo2 .navbar.active-nav .navbar-brand span,
+.demo3 .navbar.active-nav .navbar-brand span {
+	color: #1f2233;
+}
+
+.navbar .navbar-nav > li > .nav-link,
+.navbar .navbar-nav > li > .nav-link:hover,
+.navbar .navbar-nav > li > .nav-link:focus {
+    color: #1f2233;
+}
+
+.demo2 .navbar .navbar-nav > li > .nav-link,
+.demo2 .navbar .navbar-nav > li > .nav-link:hover,
+.demo2 .navbar .navbar-nav > li > .nav-link:focus,
+.demo3 .navbar .navbar-nav > li > .nav-link,
+.demo3 .navbar .navbar-nav > li > .nav-link:hover,
+.demo3 .navbar .navbar-nav > li > .nav-link:focus {
+    color: #fbf4e0;
+}
+
+.demo2 .navbar.active-nav .navbar-nav > li > .nav-link,
+.demo2 .navbar.active-nav .navbar-nav > li > .nav-link:hover,
+.demo2 .navbar.active-nav .navbar-nav > li > .nav-link:focus,
+.demo3 .navbar.active-nav .navbar-nav > li > .nav-link,
+.demo3 .navbar.active-nav .navbar-nav > li > .nav-link:hover,
+.demo3 .navbar.active-nav .navbar-nav > li > .nav-link:focus {
+    color: #1f2233;
+}
+
+.demo2 .navbar .navbar-nav > li > .nav-link.active,
+.demo2 .navbar.active-nav .navbar-nav > li > .nav-link.active,
+.demo3 .navbar .navbar-nav > li > .nav-link.active,
+.demo3 .navbar.active-nav .navbar-nav > li > .nav-link.active {
+	color: #fdd05a;
+}
+
+/* --------------------------------------
+   Home
+-----------------------------------------*/
+.home {
+    background-color: #fff;
+}
+
+.demo2.light .home .down a,
+.demo3.light .home .down a {
+    color: #fbf4e0;
+	font-weight: 400;
+}
+
+.demo2.light .home .down:hover a,
+.demo3.light .home .down:hover a {
+    color: #fdd05a;
+	font-weight: 400;
+}
+
+.demo2.light .home .down:before,
+.demo3.light .home .down:before {
+    background-color: #fbf4e0;
+}
+
+.demo2.light .home .down:hover:before,
+.demo3.light .home .down:hover:before {
+    background-color: #fdd05a;
+}
+
+/* --------------------------------------
+   About Me
+-----------------------------------------*/
+
+.about-me {
+	background-color: #fff;
+}
+
+.about-me .about-image {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+}
+
+.about-me .about-info > p {
+    color: #6f6f6f;
+}
+
+.about-me .about-info .personal-info p {
+    color: #6f6f6f;
+}
+
+/* --------------------------------------
+   Services
+-----------------------------------------*/
+
+.services {
+    background: #f8f9fb;
+}
+
+.services .service {
+    border: 1px solid #fdd05a;
+}
+
+.services .service:hover {
+    background: #fff;
+	box-shadow: none;
+}
+
+.services .service h4 {
+    color: #1f2233;
+}
+
+.services .service p {
+    color: #6f6f6f;
+}
+
+
+
+/* --------------------------------------
+   Skills
+-----------------------------------------*/
+
+.skills {
+    color: #666;
+	background-color: #fff;
+}
+
+.skills .progress-container .percent:before {
+	background-color: #fff;
+}
+
+.skills .progress-container .progress {
+	background-color: #dcdbdb;
+}
+
+/* --------------------------------------
+   Resume
+-----------------------------------------*/
+
+.resume {
+	background-color: #f8f9fb;
+    color: #6f6f6f;
+}
+
+.light .resume .timeline:before {
+    background-color: #fdd05a;
+}
+
+.resume .timeline ul li:before {
+    border: 5px solid #ecebeb;
+    box-shadow: none;
+}
+
+.resume .timeline ul li .timeline-content {
+    background-color: #f8f9fb;
+    border: 1px solid #fdd05a;
+}
+
+.resume .timeline ul li:nth-child(odd) .timeline-content:before {
+    background: #f8f9fb;
+}
+
+.resume .timeline ul li:nth-child(even) .timeline-content:before {
+    background: #f8f9fb;
+}
+
+.resume .timeline ul li .timeline-content span {
+    color: #666;
+    font-weight: 600;
+}
+
+.resume .timeline ul li .timeline-content h4 {
+    color: #1f2233;
+    border-bottom: 1px solid #e8e7e7;
+}
+
+.resume .timeline ul li .timeline-content p {
+    color: #6f6f6f;
+}
+
+/* --------------------------------------
+   Fun Facts
+-----------------------------------------*/
+
+.facts {
+    color: #fff;
+}
+
+.light .facts .overlay {
+    background-color: #fdd05a;
+	opacity: .9;
+}
+
+.light .facts .fact-item {
+    border: 1px solid #fff;
+}
+
+.facts .fact-item h4 {
+    color: #fff;
+}
+
+.light .facts .fact-item .fact-number,
+.light .facts .fact-item .fact-number + span {
+    color: #f3f3f0;
+}
+
+/* --------------------------------------
+   Portfolio
+-----------------------------------------*/
+
+.portfolio {
+	background-color: #f8f9fb;
+}
+
+.portfolio .list-filter li {
+    color: #666;
+}
+
+.portfolio .portfolio-content .item .overlay {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* --------------------------------------
+   Testimonials
+-----------------------------------------*/
+
+.testimonials {
+    background-color: #fff;
+    color: #fff;
+}
+
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev {
+    color: #666;
+}
+
+.testimonials .testimonial-box .client-pic img {
+	border: 2px solid #f5f5f5;
+    background: #fff;
+    box-shadow: none;
+}
+
+.testimonials .client-details h6 {
+	color: #666;
+}
+
+.testimonials .testimonial-box .description p {
+    color: #6f6f6f;
+    border-top: 1px solid #f3f2f2;
+}
+
+/* --------------------------------------
+   Blog
+-----------------------------------------*/
+
+.blog {
+    background-color: #f8f9fb;
+}
+
+.blog .post .post-content {
+    border: 1px solid #e8e7e7;
+}
+
+.blog .post .post-content .post-title h4 {
+    color: #666;
+}
+
+.blog .post .post-content .post-text p {
+    color: #6f6f6f;
+    border-top: 1px solid #f1f1f1;
+}
+
+/* --------------------------------------
+   Contact
+-----------------------------------------*/
+
+.contact {
+    background-color: #fff;
+}
+
+.contact .contact-box {
+    border: 1px solid #ece9e9;
+}
+
+.contact .contact-box .title-box {
+    color: #666;
+}
+
+.contact .contact-box .content-box p {
+    color: #6f6f6f;
+}
+
+.contact .contact-form .form-group .form-control {
+    color: #6f6f6f;
+    border: 1px solid #ece9e9;
+}
+
+/* --------------------------------------
+   Footer
+-----------------------------------------*/
+
+.footer {
+    background-color: #f8f9fb;
+    color: #6f6f6f;
+}
+
+.footer .logo span {
+    color: #1f2233;
+}
+
+.light .footer .footer-social-icons li a {
+	color: #fdd05a;
+}
+
+.light .footer .footer-social-icons li a:hover {
+	color: #fff;
+}
+
+/* --------------------------------------
+   Scroll To Top
+-----------------------------------------*/
+
+.light .scroll-top,
+.light .scroll-top:hover {
+    color: #1f2233;
+	font-weight: 600;
+}
+
+.light .scroll-top:before,
+.light .scroll-top:hover:before {
+	background-color: #1f2233;
+}
+
+/* --------------------------------------
+   Media Queries
+-----------------------------------------*/
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    /*=========== Navbar ============*/
+    .navbar {
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+    }
+	
+	.demo2 .navbar,
+	.demo3 .navbar {
+		background: #fff;
+		box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+	}
+    
+    .navbar .navbar-nav {
+		background: #fff;
+		box-shadow: none;
+    }
+    
+    .navbar .navbar-nav > li {
+        border-top: 1px solid #f7f6f6;
+    	border-bottom: 1px solid #fff;
+    }
+	
+	.demo2 .navbar .navbar-brand span,
+	.demo3 .navbar .navbar-brand span {
+		color: #1f2233;
+	}
+	
+	.demo2 .navbar .navbar-nav > li > .nav-link,
+	.demo2 .navbar .navbar-nav > li > .nav-link:hover,
+	.demo2 .navbar .navbar-nav > li > .nav-link:focus,
+	.demo3 .navbar .navbar-nav > li > .nav-link,
+	.demo3 .navbar .navbar-nav > li > .nav-link:hover,
+	.demo3 .navbar .navbar-nav > li > .nav-link:focus {
+		color: #1f2233;
+	}
+	
+	.demo2 .navbar .navbar-nav > li > .nav-link.active,
+	.demo3 .navbar .navbar-nav > li > .nav-link.active {
+		color: #fdd05a;
+	}
+    
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+    
+    /*=========== Navbar ============*/
+    .navbar {
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+    }
+	
+	.demo2 .navbar,
+	.demo3 .navbar {
+		background: #fff;
+		box-shadow: 0 0 15px rgba(0, 0, 0, .08);
+	}
+    
+    .navbar .navbar-nav {
+		background: #fff;
+		box-shadow: none;
+    }
+    
+    .navbar .navbar-nav > li {
+        border-top: 1px solid #f7f6f6;
+    	border-bottom: 1px solid #fff;
+    }
+	
+	.demo2 .navbar .navbar-brand span,
+	.demo3 .navbar .navbar-brand span {
+		color: #1f2233;
+	}
+	
+	.demo2 .navbar .navbar-nav > li > .nav-link,
+	.demo2 .navbar .navbar-nav > li > .nav-link:hover,
+	.demo2 .navbar .navbar-nav > li > .nav-link:focus,
+	.demo3 .navbar .navbar-nav > li > .nav-link,
+	.demo3 .navbar .navbar-nav > li > .nav-link:hover,
+	.demo3 .navbar .navbar-nav > li > .nav-link:focus {
+		color: #1f2233;
+	}
+	
+	.demo2 .navbar .navbar-nav > li > .nav-link.active,
+	.demo3 .navbar .navbar-nav > li > .nav-link.active {
+		color: #fdd05a;
+	}
+    
+}
